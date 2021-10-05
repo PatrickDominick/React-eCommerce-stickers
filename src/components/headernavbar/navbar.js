@@ -1,17 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-export default class Navbar extends Component {
-    constructor(props) {
-        super(props)
-
-        this.state = {}
-    }
-
+class Navbar extends Component {
     render() {
         return (
-            <div className="navbar">
-                
+            <div className='navbar'>
+
             </div>
         )
     }
 }
+
+export default Navbar;
